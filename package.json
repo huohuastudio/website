@@ -1,0 +1,10 @@
+{
+  "name": "spark-studio",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "tailwindcss": "^3.4.16"
+  },
+  "scripts": {
+    "dev": "npx tailwindcss -i ./assets/input.css -o ./assets/output.css --watch"
+  }
+}
